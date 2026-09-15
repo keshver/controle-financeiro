@@ -42,12 +42,11 @@ O projeto possui uma interface simples e minimalista, com diferentes indicadores
 
 ### ☀️ Modo claro
 
-![Modo claro](images/cfmodoclaro.png)
+![Modo claro](imagens/cfmodoclaro.png)
 
 ### 🌙 Modo escuro
 
-![Modo escuro](images/cfmodoescuro.png)
-
+![Modo escuro](imagens/cfmodoescuro.png)
 ---
 
 ## 📂 Estrutura do projeto
