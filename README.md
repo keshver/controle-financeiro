@@ -62,3 +62,45 @@ controle-financeiro/
 └── images/
     ├── cfmodoclaro.png
     └── cfmodoescuro.png
+
+
+    ## 🚀 Como executar
+
+1. Baixe ou clone este repositório.
+
+2. Abra a pasta do projeto no VS Code.
+
+3. Abra o arquivo `index.html`.
+
+4. Execute utilizando a extensão **Live Server** no VS Code ou abra o arquivo diretamente no navegador.
+
+---
+
+## 📚 O que aprendi com este projeto
+
+Durante o desenvolvimento deste projeto, pratiquei:
+
+- Estruturação de páginas com HTML5;
+- Organização de estilos utilizando CSS;
+- Utilização de classes e IDs;
+- Variáveis CSS;
+- Criação de temas claro e escuro;
+- Manipulação do DOM com JavaScript;
+- Eventos e formulários;
+- Organização de código;
+- Responsividade;
+- Versionamento utilizando Git e GitHub.
+
+🎯 Objetivo
+
+Este projeto foi criado com o objetivo de colocar em prática os conhecimentos adquiridos em HTML, CSS e JavaScript, desenvolvendo uma aplicação funcional desde sua estrutura até sua interface e interações.
+
+Além disso, o projeto faz parte da construção do meu portfólio como estudante de Análise e Desenvolvimento de Sistemas.
+
+👩🏻‍💻 Desenvolvido por
+
+Keshiner
+
+Estudante de Análise e Desenvolvimento de Sistemas.
+
+Este projeto faz parte da minha jornada de aprendizado e desenvolvimento do meu portfólio.
