@@ -75,6 +75,11 @@ controle-financeiro/
 4. Execute utilizando a extensão **Live Server** no VS Code ou abra o arquivo diretamente no navegador.
 
 ---
+## 🚀 Acesse o projeto
+
+🔗 [Clique aqui para acessar o Controle Financeiro](https://keshver.github.io/controle-financeiro/)
+
+---
 
 ## 📚 O que aprendi com este projeto
 
