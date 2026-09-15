@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme= "claro">
+    <head>
+        <meta charset="UTF-8">
+        <title> Controle Financeiro</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class=" topo">
+            <h1>Controle Financeiro</h1>
+            <label class="switch-tema">
+                claro
+                <input type="checkbox" id="toggle-tema">
+                <span class="slider"></span>
+                escuro
+            </label>
+        </header>
+        <main class="conteudo">
+            <section class="painel-formulario">
+                <h2>Novo Lançamento</h2>
+                <div class="tipo-toggle">
+                    <button type="button" data-tipo="entrada">Entrada</button>
+                    <button type="button" data-tipo= "despesa" class="ativo">Despesa</button>
+                </div>
+                <form id="form-lancamento">
+                    <div class="campo">
+                    <label for="descrição">Descrição</label>
+                    <input type="text" id="descricao" placeholder="Ex.Salário,Aluguel..." required>
+                    </div>
+                    <div class="campo">
+                    <label for="categoria">Categoria</label>
+                    <select id="categoria" required>
+                        <option value="">Selecione uma Categoria</option>
+                        <option>Alimentação</option>
+                        <option>Transporte</option>
+                        <option>Moradia</option>
+                        <option>Lazer</option>
+                        <option>Trabalho</option>
+                    </select>
+                    </div>
+                    <div class="campo">
+                    <label for="valor">Valor(R$)</label>
+                    <input type="number" id="valor" step="0.01" placeholder="0,00" required>
+                    </div>
+                    <button type="submit">Adicionar</button>
+                </form>
+            </section>
+            <section class="painel-saldo">
+                <div class="card-saldo">
+                    <span>Saldo Atual</span>
+                    <strong id="saldo-atual">R$0,00</strong>
+                </div>
+                <div class="card-categorias">
+                    <h2>Resumo por categoria</h2>
+                    <ul id="lista-categorias"></ul>
+                </div>
+            </section>
+            <section class="painel-lançamentos">
+                <h2>Lançamentos</h2>
+                <table>
+                    <thead>
+                        <tr><th>Descrição</th><th>Categoria</th><th>Tipo</th><th>Valor</th><th>Ações</th></tr>
+                    </thead>
+                    <tbody id="lista-lancamentos"></tbody>
+                </table>
+            </section>
+        </main>
+        <script src = "script.js"></script>
+    </body>
+</html>
